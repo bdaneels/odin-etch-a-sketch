@@ -27,7 +27,8 @@ const gridDivs = document.querySelectorAll('#gridDiv')
 
 gridDivs.forEach((div) => {
     div.addEventListener('mouseover', () => {
-        div.setAttribute('style','background-color: black');
+        div.setAttribute('style',`background-color: black;
+            height: ${gridDimension}px; width: ${gridDimension}px`);
     });
 });
 }
