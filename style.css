@@ -1,7 +1,5 @@
 
 .unactivated{
-    height: 50px;
-    width: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -10,4 +8,8 @@
 
 .gridContainer{
 display: grid;
+    margin-bottom: 30px;
+}
+button{
+    padding: 10px;
 }
